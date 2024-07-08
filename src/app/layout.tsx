@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 		images: "/og.png",
 		type: "website",
 	},
-	keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+	keywords: ["kürşat polatcı", "Kürşat Polatcı", "kursatpolatci", "Kürşat Polatcı Portfolio"],
 };
 
 export default function RootLayout({
