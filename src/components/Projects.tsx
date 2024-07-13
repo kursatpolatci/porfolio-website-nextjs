@@ -8,19 +8,19 @@ import { cn } from "@/lib/utils";
 export default function Projects() {
   const projects = [
     {
-      title: "E-Learning Platform",
+      title: "Company Website",
       tech: [SiNextdotjs, SiReactquery, SiTailwindcss],
       Link: "https://github.com/kursatpolatci/company-website-nextjs",
       cover:
-        "/haber.jpg",
+        "/erisim.png",
       background: "bg-indigo-500",
     },
     {
-      title: "E-Learning Platform",
+      title: "Film Website",
       tech: [SiNextdotjs, SiReactquery, SiTailwindcss],
-      Link: "https://github.com/kursatpolatci/company-website-nextjs",
+      Link: "https://github.com/kursatpolatci/film-website-nextjs",
       cover:
-        "/haber.jpg",
+        "/film.png",
       background: "bg-green-500",
     },
   ];
@@ -34,7 +34,7 @@ export default function Projects() {
         { projects.map((project, index) => {
           return (
             <Link key={index} href={project.Link}>
-              <div className={cn("p-5 rounded-md", project.background)}>
+              <div className={cn("p-3 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
                   className="w-full space-x-5"
